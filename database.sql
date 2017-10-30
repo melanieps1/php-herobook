@@ -65,4 +65,16 @@ INSERT INTO ability_hero (hero_id, ability_id) VALUES (2, 4);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (3, 1);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (4, 2);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (4, 6);
-INSERT INTO ability_hero (hero_id, ability_id) VALUES (5, 7);
+INSERT INTO ability_hero (hero_id, ability_id) VALUES (5, 7
+
+/* SELECT * FROM heroes;
+SELECT relationship_types.id, relationship_types.type FROM relationship_types;
+SELECT * FROM relationships; */
+
+SELECT * FROM heroes;
+SELECT * FROM abilities;
+SELECT * FROM ability_hero;
+
+SELECT heroes.id, heroes.name, heroes.about_me, heroes.image_url, ability_hero.hero_id
+FROM heroes
+LEFT JOIN ability_hero ON heroes.id = ability_hero.hero_id;

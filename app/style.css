@@ -1,0 +1,64 @@
+body {
+	background: #f3f6f7;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	margin: 24px auto 0;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 8px;
+}
+
+p {
+	font-size: 16px;
+	margin: 24px 40px;
+	text-align: left;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.header {
+	background: #7fb1e2;
+	color: #f3f6f7;
+	padding: 3px;
+}
+
+.profileCards {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 8px #888888;
+	float: left;
+	height: 200px;
+	margin: 0 24px 24px;
+	padding: 12px;
+	width: 400px;
+}
+
+img {
+	margin: auto;
+}
+
+.imageContainer {
+	background-size:cover;
+	border-radius: 100%;
+	float: left;
+	height: 150px;
+	margin: 12px 24px;
+	overflow: hidden;
+	width: 150px;
+}
+
+.nameAboutPreview {
+	margin: 0 auto;
+}
