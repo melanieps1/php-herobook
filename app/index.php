@@ -12,7 +12,7 @@
 		<h3><i>Facebook for Superheroes</i></h3>
 	</div>
 
-	<p>Check out your superfriends!</p>
+	<p class="subtitle">Check out your superfriends!</p>
 
 	<?php
 	
@@ -45,7 +45,7 @@
 				</div>
 
 				<div>
-					<?= $hero["about_me"] ?>
+					<p><?= $hero["about_me"] ?></p>
 				</div>
 			</div>
 

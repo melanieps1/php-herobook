@@ -16,7 +16,7 @@ h3 {
 	margin-top: 8px;
 }
 
-p {
+.subtitle {
 	font-size: 16px;
 	margin: 24px 40px;
 	text-align: left;
@@ -39,8 +39,8 @@ li {
 	border-radius: 5px;
 	box-shadow: 2px 2px 8px #888888;
 	float: left;
-	height: 200px;
-	margin: 0 24px 24px;
+	height: 180px;
+	margin: 0 24px 24px 0;
 	padding: 12px;
 	width: 400px;
 }
@@ -60,5 +60,9 @@ img {
 }
 
 .nameAboutPreview {
-	margin: 0 auto;
+	margin-right: 24px;
+}
+
+p {
+	font-size: 14px;
 }
