@@ -15,6 +15,8 @@
 	<p class="subtitle">Check out your superfriends!</p>
 
 	<?php
+
+		include('./database.php');
 	
 		function getHeroes() {
 			$request = pg_query(getDb(), "select * from heroes order by id asc");
